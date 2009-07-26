@@ -1,0 +1,22 @@
+---
+name: App-ZofCMS-Plugin-GoogleTime
+version: 0.0101
+author:
+  - "'Zoffix <'zoffix@cpan.org'>"
+abstract: plugin to get times for different locations using Google
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  App::ZofCMS::Plugin::Base: 0.0103
+  WWW::Google::Time: 0.0103
+build_requires:
+  Test::More: 0
+provides:
+  App::ZofCMS::Plugin::GoogleTime:
+    file: lib/App/ZofCMS/Plugin/GoogleTime.pm
+    version: 0.0101
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
