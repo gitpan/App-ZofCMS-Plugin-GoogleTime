@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::GoogleTime;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 use WWW::Google::Time;
 use base 'App::ZofCMS::Plugin::Base';
@@ -211,6 +211,8 @@ output of C<data()> method of L<WWW::Google::Time> module.
 =head1 AUTHOR
 
 'Zoffix, C<< <'zoffix at cpan.org'> >>
+(L<http://haslayout.net/>, L<http://zoffix.com/>, L<http://zofdesign.com/>)
+
 
 =head1 BUGS
 
