@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::GoogleTime;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 use WWW::Google::Time;
 use base 'App::ZofCMS::Plugin::Base';
@@ -123,6 +123,21 @@ B<Mandatory>. You must specify the plugin in the list of plugins to execute.
             max_size => 2000,
         ),
     },
+
+    plug_google_time => sub {
+        my ( $t, $q, $config ) = @_;
+        return {
+            location => 'Toronto',
+        }
+    },
+
+B<Mandatory>. Takes either a hashref or a subref as a value. If subref is specified,
+its return value will be assigned to C<plug_google_time> as if it was already there. If sub
+returns
+an C<undef>, then plugin will stop further processing. The C<@_> of the subref will
+contain (in that order): ZofCMS Tempalate hashref, query parameters hashref and
+L<App::ZofCMS::Config> object. Possible keys/values for the hashref
+are as follows:
 
 =head3 C<location>
 

@@ -1,6 +1,6 @@
 ---
 name: App-ZofCMS-Plugin-GoogleTime
-version: 0.0102
+version: 0.0103
 author:
   - "'Zoffix <'zoffix@cpan.org'>"
 abstract: plugin to get times for different locations using Google
@@ -17,7 +17,7 @@ configure_requires:
 provides:
   App::ZofCMS::Plugin::GoogleTime:
     file: lib/App/ZofCMS/Plugin/GoogleTime.pm
-    version: 0.0102
+    version: 0.0103
 generated_by: Module::Build version 0.34
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
