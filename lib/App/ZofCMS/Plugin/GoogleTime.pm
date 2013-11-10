@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::GoogleTime;
 use warnings;
 use strict;
 
-our $VERSION = '0.0103';
+our $VERSION = '0.0104';
 
 use WWW::Google::Time;
 use base 'App::ZofCMS::Plugin::Base';
@@ -70,6 +70,8 @@ sub _do {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

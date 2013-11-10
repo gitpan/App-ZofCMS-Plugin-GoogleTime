@@ -1,11 +1,14 @@
 Revision history for App-ZofCMS-Plugin-GoogleTime
 
-0.0103  July 31, 2009
-        Added missing part of docs
+0.0104  2013-11-09
+        - Minor fixes to comply with specs and Kwalitee game
 
-0.0102  July 27, 2009
-        Added 01-plugin.t test and added my links
+0.0103  2009-07-31
+        - Added missing part of docs
 
-0.0101  July 26, 2009
-        First version, released on an unsuspecting world.
+0.0102  2009-07-27
+        - Added 01-plugin.t test and added my links
+
+0.0101  2009-07-26
+        - First version, released on an unsuspecting world.
 

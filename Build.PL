@@ -16,7 +16,9 @@ my $builder = Module::Build->new(
     requires => {
         'WWW::Google::Time'         => 0.0103,
         'App::ZofCMS::Plugin::Base' => 0.0103,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-GoogleTime-*' ],
     create_makefile_pl => 'traditional',
 );
